@@ -270,7 +270,7 @@ http://www.templatemo.com/tm-515-eatery
 
   .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #ffb200;
+    color: #9bc8de;
   }
 
   .custom-navbar .navbar-nav > li > a:hover,
@@ -755,7 +755,7 @@ http://www.templatemo.com/tm-515-eatery
 
   footer {
     border-top: 1px solid rgba(0,0,0,0.05);
-    padding: 120px 0;
+    padding: 20px 0;
     padding-bottom: 80px;
   }
 
@@ -985,14 +985,14 @@ http://www.templatemo.com/tm-515-eatery
     }
 
     footer {
-      padding: 60px 0;
-      padding-bottom: 60px;
+      padding: 20px;
+      padding-bottom: 20px;
     }
 
     .footer-open-hour {
       right: 0;
       bottom: 0;
-      margin-top: 30px;
+      margin-top: 0px;
     }
   }
 
