@@ -49,7 +49,7 @@ http://www.templatemo.com/tm-515-eatery
 
   p {
     color: #757575;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: normal;
     line-height: 24px;
   }
@@ -142,16 +142,18 @@ http://www.templatemo.com/tm-515-eatery
   -----------------------------------------*/
 
   .section-btn {
-    background: #bd8400;
+    background: #9bc8de;
     border-radius: 0;
     border: 0;
     color: #f9f9f9;
     font-size: inherit;
-    font-weight: normal;
+    font-weight: bold;
     padding: 10px 25px;
     transition: 0.5s 0.2s;
   }
-
+.amarelo{
+	background: #e29225;
+}
 
 
   /*---------------------------------------
@@ -220,12 +222,15 @@ http://www.templatemo.com/tm-515-eatery
     font-weight: bold;
   }
 
+/*---------------------------------------
+      bolinha              
+  -----------------------------------------*/
   .custom-navbar .navbar-brand span {
-    color: #ffb300;
+    color: #e29225;
   }
 
   .top-nav-collapse {
-    background: #ffb300;
+    background: #ffffff;
   }
 
   .custom-navbar .navbar-nav.navbar-nav-first {
@@ -241,9 +246,11 @@ http://www.templatemo.com/tm-515-eatery
     display: inline-block;
     margin: 0.2em 0 0 1em;
   }
-
+/*---------------------------------------
+      botão do menu ao passar o mouse            
+  -----------------------------------------*/
   .custom-navbar .navbar-nav.navbar-right .section-btn:hover {
-    background: #9bc8de;
+    background: #e29225;
     color: #ffffff;
   }
 
@@ -270,7 +277,7 @@ http://www.templatemo.com/tm-515-eatery
 
   .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #9bc8de;
+    color: #e19225;
   }
 
   .custom-navbar .navbar-nav > li > a:hover,
@@ -280,7 +287,7 @@ http://www.templatemo.com/tm-515-eatery
 
   .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: #ffb200;
+    color: #e29225;
   }
 
   .custom-navbar .navbar-toggle {
@@ -304,7 +311,7 @@ http://www.templatemo.com/tm-515-eatery
     }
 
     .custom-navbar.top-nav-collapse {
-      background: #ffb300;
+      background: #ffffff;
       -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
       -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
       box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
@@ -320,7 +327,7 @@ http://www.templatemo.com/tm-515-eatery
     }
 
     .top-nav-collapse .nav .section-btn a {
-      color: #bd8400;
+      color: #ffffff;
     }
   }
 
@@ -414,8 +421,8 @@ http://www.templatemo.com/tm-515-eatery
     background-image: url(../images/banner4.jpg);
   }
 
-.slider .item-first .section-btn {
-    background: #ffb200;
+  .slider .item-first .section-btn {
+    background: #e19225;
   }
 
   .slider .item-first .section-btn:hover {
@@ -425,7 +432,7 @@ http://www.templatemo.com/tm-515-eatery
 
 
   .slider .item-second .section-btn {
-    background: #ffb200;
+    background: #e19225;
   }
 
   .slider .item-second .section-btn:hover {
@@ -433,7 +440,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .slider .item-third .section-btn {
-    background: #ffb200;
+    background: #e19225;
   }
 
 .slider .item-third .section-btn:hover {
@@ -448,6 +455,7 @@ http://www.templatemo.com/tm-515-eatery
 
   #about {
     padding-bottom: 0;
+	background: #9bc8de;
   }
 
   .about-info {
@@ -462,7 +470,10 @@ http://www.templatemo.com/tm-515-eatery
     position: absolute;
   }
 
-
+	.branca{
+	color: #ffffff;
+		font-size: 18px;
+	}
 
   /*---------------------------------------
       TEAM              
@@ -531,7 +542,7 @@ http://www.templatemo.com/tm-515-eatery
     transform: translate(-50%,-50%);
   }
 
-  .team-item h4 {
+  .team-item h5 {
     color: #ffffff;
   }
 
@@ -544,7 +555,11 @@ http://www.templatemo.com/tm-515-eatery
     margin-top: 5px;
   }
 
-
+.ideal{
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: bold;
+}
 
   /*---------------------------------------
      MENU              
@@ -755,8 +770,8 @@ http://www.templatemo.com/tm-515-eatery
 
   footer {
     border-top: 1px solid rgba(0,0,0,0.05);
-    padding: 20px 0;
-    padding-bottom: 80px;
+    padding: 10px 0;
+    padding-bottom: 10px;
   }
 
   footer .section-title {
@@ -780,49 +795,19 @@ http://www.templatemo.com/tm-515-eatery
     margin-bottom: 0;
   }
 
-  .footer-info,
-  footer .social-icon {
-    margin-top: 20px;
-  }
+  
+#aumentar{
+	font-size: 18px;
+}
+  
 
-  .footer-open-hour {
-    background: #ce3232;
-    background: url('../images/dog4.jpg') center center no-repeat;
-    background-size: cover;
-    border-radius: 20px;
-    margin-top: 0;
-    padding: 40px 0 40px 80px;
-    overflow: hidden;
-    position: relative;
-    z-index: 22;
-    right: 20px;
-    bottom: 20px;
-  }
+  
 
-  .footer-open-hour::after {
-    background: rgba(29,29,29,0.85);
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -2222;
-  }
+  
 
-  .footer-open-hour h2 {
-    color: #ffffff;
-  }
+  
 
-  .footer-open-hour p {
-    color: #d9d9d9;
-  }
-
-  .footer-open-hour strong {
-    color: #f9f9f9;
-  }
+  
 
 
 
@@ -985,14 +970,14 @@ http://www.templatemo.com/tm-515-eatery
     }
 
     footer {
-      padding: 20px;
-      padding-bottom: 20px;
+      padding: 60px 0;
+      padding-bottom: 60px;
     }
 
     .footer-open-hour {
       right: 0;
       bottom: 0;
-      margin-top: 0px;
+      margin-top: 30px;
     }
   }
 
